@@ -75,7 +75,9 @@ h5 {
 .navbarlinks A:hover {
   font-family:"Ubuntu", sans-serif;
   font-size:15px;
-  color:#FF00FF;
+  color:#FF33FF;
+  background:#302A31;
+  padding:1px;
 }
 
 .sidebarlinks A:link {
@@ -93,7 +95,8 @@ h5 {
 .sidebarlinks A:hover {
   font-family:"Ubuntu", sans-serif;
   font-size:14px;
-  color:#FF00FF;
+  background:#302A31;
+  color:#FF33FF;
 }
 
 a{
