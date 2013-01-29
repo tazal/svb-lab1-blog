@@ -5,6 +5,14 @@ body {
 #header {
   width:100%;
   background:#202A31;
+  padding: 10px 10px 10px 10px;
+  position:relative;
+  left:-8px;
+  top:-8px;
+}
+
+h1 {
+  color:#EFCFE1;
 }
 
 #text {
