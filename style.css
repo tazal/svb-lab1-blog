@@ -1,11 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 body {
-  background:#CFAFC1
+  color:#220022;
+  background:#EFCFE1
 }
 
 #header {
   width:100%;
-  background:#202A31;
-  padding: 10px 10px 10px 10px;
+  background:#302A31;
+  padding: 10px;
   position:relative;
   left:-8px;
   top:-8px;
@@ -13,6 +17,16 @@ body {
 
 h1 {
   color:#EFCFE1;
+  font-family:"Ubuntu", sans-serif;
+}
+h3 {
+  font-family:"Ubuntu", sans-serif;
+}
+h4 {
+  font-family:"Ubuntu", sans-serif;
+}
+h5 {
+  font-family:"Ubuntu", sans-serif;
 }
 
 #text {
@@ -24,7 +38,11 @@ h1 {
   width:25%;
   height:750px;
   float:right;
-  background:#652b2b;
+  background:#652b4b;
+  position:relative;
+  left:8px;
+  
+  text-align:left;
 }
 
 #navbar {
@@ -32,5 +50,46 @@ h1 {
   background:#5E405E
 }
 
+.navbarlinks A:link {
+  color:#EFCFE1;
+  font-family:"Ubuntu", sans-serif;
+  font-size:20px;
+}
+
+.navbarlinks A:visited {
+  color:#FFFFFF;
+  font-family:"Ubuntu", sans-serif;
+  font-size:20px;
+}
+
+.navbarlinks A:hover {
+  font-family:"Ubuntu", sans-serif;
+  font-size:20px;
+  color:#FF00FF;
+}
+
+.sidebarlinks A:link {
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  color:#EFCFE1;
+}
+
+.sidebarlinks A:visited {
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  color:#FFFFFF;
+}
+
+.sidebarlinks A:hover {
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  color:#FF00FF;
+}
+
+a{
+  text-decoration:none;
+}
+
 p {
+  font-family:"Droid Sans", sans-serif;
 }
