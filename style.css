@@ -1,5 +1,10 @@
+body {
+  background:#CFAFC1
+}
+
 #header {
-  
+  width:100%;
+  background:#202A31;
 }
 
 #text {
@@ -9,10 +14,15 @@
 
 #sidebar {
   width:25%;
+  height:750px;
   float:right;
-  background:red;
+  background:#652b2b;
+}
+
+#navbar {
+  width:100%;
+  background:#5E405E
 }
 
 p {
-  color:red;
 }
