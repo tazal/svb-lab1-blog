@@ -20,6 +20,7 @@ h1 {
   font-family:"Ubuntu", sans-serif;
 }
 h3 {
+  color:#AA88AF;
   font-family:"Ubuntu", sans-serif;
 }
 h4 {
@@ -35,7 +36,10 @@ h5 {
 }
 
 #sidebar {
-  width:25%;
+  position:relative;
+  top:-8px;
+  padding:10px;
+  width:20%;
   height:750px;
   float:right;
   background:#652b4b;
@@ -46,6 +50,10 @@ h5 {
 }
 
 #navbar {
+  padding:10px;
+  position:relative;
+  left:-8px;
+  top:-8px;
   width:100%;
   background:#5E405E
 }
